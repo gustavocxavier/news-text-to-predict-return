@@ -49,35 +49,6 @@ The project is currently under development. The initial stages of data acquisiti
 
 We welcome contributions and collaborations from the community. Feel free to fork the repository, suggest improvements, or share your own insights and experiences related to NLP and financial forecasting.
 
-## Disclaimer
-
-This project is for educational and research purposes only and should not be interpreted as financial advice.
-
-Enjoy exploring the code and contributing to the project!
-
-----
-# News Text to Predict Return
-
-## Overview
-
-The "news-text-to-predict-return" project is a research initiative aimed at exploring Natural Language Processing (NLP) methods and Machine Learning (ML) models for predicting the stock returns of the Brazilian stock market. The project utilizes data from G1, the leading news portal in Brazil, to extract relevant textual information. The primary goal is to leverage NLP and ML techniques to analyze news content and forecast stock returns.
-
-## Data Collection
-
-To gather raw text data, the project employs the BeautifulSoup library to scrape news articles from G1. This ensures a diverse and comprehensive dataset for training and evaluation.
-
-## Text Pre-processing
-
-Text pre-processing is a crucial step in preparing the data for modeling. Various techniques are applied to clean and structure the text data, making it suitable for input into ML models.
-
-## AutoML for Model Selection
-
-The project employs AutoML (Automated Machine Learning) techniques to automate the process of model selection. This involves exploring different ML models and hyperparameter configurations to identify the most effective combination for predicting stock returns based on the news text.
-
-## Leakage Data Prevention
-
-To maintain the integrity of the predictive models, the project takes special care to prevent data leakage. Time series splitting is utilized to ensure that training and testing data do not overlap chronologically. This approach is essential for realistic evaluation and accurate representation of model performance.
-
 ## Getting Started
 
 Clone the repository:
@@ -92,9 +63,15 @@ Clone the repository:
 - Haroldo Melo - Researcher on MECAPLAB
 - Eduardo Santos - Researcher on MECAPLAB
 
+## Disclaimer
+
+This project is for educational and research purposes only and should not be interpreted as financial advice.
+
+Enjoy exploring the code and contributing to the project!
+
 ## License
 
-This project is licensed under the [MIT License](LICENSE). Feel free to fork and modify as needed for your own research or applications.
+This project is licensed under the [MIT License](https://spdx.org/licenses/MIT.html). Feel free to fork and modify as needed for your own research or applications.
 
 For any questions or suggestions, please contact [gustavocx@outlook.com].
 
